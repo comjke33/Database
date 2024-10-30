@@ -4,21 +4,44 @@
         <title>Welcome to My First Website</title>
         <!-- 한글을 인식하기 위해 인코딩 설정 -->
         <meta charset="UTF-8"> 
+        <style>
+            p{
+                color:blue;
+            }
+            h1{
+                color:pink;
+            }
+            html{
+                background-color: forestgreen;   
+                /* 
+                background-color: RGB(100,100,100);
+                background-color: #f0f0f0;
+                 */
+            }
+            body{
+                background-color: aquamarine;
+                border: 3px solid black;
+                padding: 10px;
+                /* 
+                solid: 실선
+                */
+            }
+        </style>
     </head>
     <body>
         <h1>This is my first Website</h1>
         <ol>
-            <li>ㅎㅇ</li>
-            <li>ㅎㅇ</li>
-            <li>ㅎㅇ</li>
+            <li>번호 붙여서</li>
+            <li>번호 붙여서</li>
+            <li>번호 붙여서</li>
         </ol>
         <ul>
-            <li>ㅎㅇ</li>
-            <li>ㅎㅇ</li>
-            <li>ㅎㅇ</li>
+            <li>닷닷</li>
+            <li>닷닷</li>
+            <li>닷닷</li>
         </ul>
         <p>
-            <form action="https://google.com/search">
+            <form action="https://google.com/search" method="POST">
                 <label for="textinput">검색어</label>
                 <input type="text" id="textinput" name="q">
                 <input type="submit" value="검색">
